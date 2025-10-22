@@ -1,0 +1,5 @@
+C:/Users/13276/Desktop/game/out/build/GCC 13.1.0 x86_64-w64-mingw32/CMakeFiles/nju_campus.dir
+C:/Users/13276/Desktop/game/out/build/GCC 13.1.0 x86_64-w64-mingw32/CMakeFiles/edit_cache.dir
+C:/Users/13276/Desktop/game/out/build/GCC 13.1.0 x86_64-w64-mingw32/CMakeFiles/rebuild_cache.dir
+C:/Users/13276/Desktop/game/out/build/GCC 13.1.0 x86_64-w64-mingw32/CMakeFiles/nju_campus_autogen_timestamp_deps.dir
+C:/Users/13276/Desktop/game/out/build/GCC 13.1.0 x86_64-w64-mingw32/CMakeFiles/nju_campus_autogen.dir
