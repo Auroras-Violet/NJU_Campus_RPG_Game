@@ -1,3 +1,5 @@
 # Hashes of file build rules.
 14af4185f77a21ba94cc01bf18b953b9 CMakeFiles/nju_campus_autogen
+03ae7799ce18a0790c433ec7dc2e4803 mainwindows/CMakeFiles/mainwindows_autogen
+6f4fdcb89ed7d7633e5a31899c3a59b5 mainwindows/mainwindows_autogen/timestamp
 eaf4d2d7c79664d0755473b315c40c05 nju_campus_autogen/timestamp

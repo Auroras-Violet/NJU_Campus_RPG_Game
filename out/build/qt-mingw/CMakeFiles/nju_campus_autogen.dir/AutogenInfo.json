@@ -288,9 +288,69 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/13276/Desktop/game/src/canteen.h",
+			"MU",
+			"UVLADIE3JM/moc_canteen.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/dormitory.h",
+			"MU",
+			"UVLADIE3JM/moc_dormitory.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/gameplay.h",
+			"MU",
+			"UVLADIE3JM/moc_gameplay.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/mainmap.h",
+			"MU",
+			"UVLADIE3JM/moc_mainmap.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/nanyong_building.h",
+			"MU",
+			"UVLADIE3JM/moc_nanyong_building.cpp",
+			null
+		],
+		[
 			"C:/Users/13276/Desktop/game/src/nju_campus.h",
 			"MU",
 			"UVLADIE3JM/moc_nju_campus.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/npc.h",
+			"MU",
+			"UVLADIE3JM/moc_npc.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/player.h",
+			"MU",
+			"UVLADIE3JM/moc_player.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/playground.h",
+			"MU",
+			"UVLADIE3JM/moc_playground.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/plot.h",
+			"MU",
+			"UVLADIE3JM/moc_plot.cpp",
+			null
+		],
+		[
+			"C:/Users/13276/Desktop/game/src/sujiao_building.h",
+			"MU",
+			"UVLADIE3JM/moc_sujiao_building.cpp",
 			null
 		]
 	],
@@ -367,8 +427,18 @@
 	"SETTINGS_FILE" : "C:/Users/13276/Desktop/game/out/build/qt-mingw/CMakeFiles/nju_campus_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/13276/Desktop/game/src/canteen.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/dormitory.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/gameplay.cpp", "MU", null ],
 		[ "C:/Users/13276/Desktop/game/src/main.cpp", "MU", null ],
-		[ "C:/Users/13276/Desktop/game/src/nju_campus.cpp", "MU", null ]
+		[ "C:/Users/13276/Desktop/game/src/mainmap.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/nanyong_building.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/nju_campus.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/npc.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/player.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/playground.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/plot.cpp", "MU", null ],
+		[ "C:/Users/13276/Desktop/game/src/sujiao_building.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -1,0 +1,140 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "mainwindows",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-mainwindows-Debug-458d23e67e048fea1a7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "mainwindows",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nju_campus",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "mainwindows",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "mainwindows::@f725229826b009617744",
+					"jsonFile" : "target-mainwindows-Debug-7d486592caf3c148a0ad.json",
+					"name" : "mainwindows",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mainwindows_autogen::@f725229826b009617744",
+					"jsonFile" : "target-mainwindows_autogen-Debug-de5d9a1de54a86d2556d.json",
+					"name" : "mainwindows_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mainwindows_autogen_timestamp_deps::@f725229826b009617744",
+					"jsonFile" : "target-mainwindows_autogen_timestamp_deps-Debug-5630aca7286414ef5aa9.json",
+					"name" : "mainwindows_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nju_campus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nju_campus-Debug-7df4111ed0b6467aa0e3.json",
+					"name" : "nju_campus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nju_campus_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nju_campus_autogen-Debug-fec7ab39871c00fb0723.json",
+					"name" : "nju_campus_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nju_campus_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nju_campus_autogen_timestamp_deps-Debug-7f6f571056fe18e45bef.json",
+					"name" : "nju_campus_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/13276/Desktop/game/out/build/qt-mingw",
+		"source" : "C:/Users/13276/Desktop/game"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

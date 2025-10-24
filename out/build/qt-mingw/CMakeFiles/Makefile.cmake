@@ -212,6 +212,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/Windows.cmake"
   "C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake"
   "C:/Users/13276/Desktop/game/CMakeLists.txt"
+  "C:/Users/13276/Desktop/game/mainwindows/CMakeLists.txt"
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
@@ -229,6 +230,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "mainwindows/CMakeFiles/mainwindows_autogen.dir/AutogenInfo.json"
+  "mainwindows/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -236,4 +239,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/nju_campus.dir/DependInfo.cmake"
   "CMakeFiles/nju_campus_autogen_timestamp_deps.dir/DependInfo.cmake"
   "CMakeFiles/nju_campus_autogen.dir/DependInfo.cmake"
+  "mainwindows/CMakeFiles/mainwindows.dir/DependInfo.cmake"
+  "mainwindows/CMakeFiles/mainwindows_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "mainwindows/CMakeFiles/mainwindows_autogen.dir/DependInfo.cmake"
   )

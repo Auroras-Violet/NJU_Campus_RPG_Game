@@ -90,11 +90,56 @@ CMakeFiles/nju_campus.dir/nju_campus_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/nju_campus_autogen/mocs_compilation.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\out\build\qt-mingw\nju_campus_autogen\mocs_compilation.cpp -o CMakeFiles\nju_campus.dir\nju_campus_autogen\mocs_compilation.cpp.s
 
+CMakeFiles/nju_campus.dir/src/canteen.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/canteen.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/canteen.cpp.obj: C:/Users/13276/Desktop/game/src/canteen.cpp
+CMakeFiles/nju_campus.dir/src/canteen.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nju_campus.dir/src/canteen.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/canteen.cpp.obj -MF CMakeFiles\nju_campus.dir\src\canteen.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\canteen.cpp.obj -c C:\Users\13276\Desktop\game\src\canteen.cpp
+
+CMakeFiles/nju_campus.dir/src/canteen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/canteen.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\canteen.cpp > CMakeFiles\nju_campus.dir\src\canteen.cpp.i
+
+CMakeFiles/nju_campus.dir/src/canteen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/canteen.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\canteen.cpp -o CMakeFiles\nju_campus.dir\src\canteen.cpp.s
+
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj: C:/Users/13276/Desktop/game/src/dormitory.cpp
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj -MF CMakeFiles\nju_campus.dir\src\dormitory.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\dormitory.cpp.obj -c C:\Users\13276\Desktop\game\src\dormitory.cpp
+
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/dormitory.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\dormitory.cpp > CMakeFiles\nju_campus.dir\src\dormitory.cpp.i
+
+CMakeFiles/nju_campus.dir/src/dormitory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/dormitory.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\dormitory.cpp -o CMakeFiles\nju_campus.dir\src\dormitory.cpp.s
+
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj: C:/Users/13276/Desktop/game/src/gameplay.cpp
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj -MF CMakeFiles\nju_campus.dir\src\gameplay.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\gameplay.cpp.obj -c C:\Users\13276\Desktop\game\src\gameplay.cpp
+
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/gameplay.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\gameplay.cpp > CMakeFiles\nju_campus.dir\src\gameplay.cpp.i
+
+CMakeFiles/nju_campus.dir/src/gameplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/gameplay.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\gameplay.cpp -o CMakeFiles\nju_campus.dir\src\gameplay.cpp.s
+
 CMakeFiles/nju_campus.dir/src/main.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
 CMakeFiles/nju_campus.dir/src/main.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
 CMakeFiles/nju_campus.dir/src/main.cpp.obj: C:/Users/13276/Desktop/game/src/main.cpp
 CMakeFiles/nju_campus.dir/src/main.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nju_campus.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/nju_campus.dir/src/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/main.cpp.obj -MF CMakeFiles\nju_campus.dir\src\main.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\main.cpp.obj -c C:\Users\13276\Desktop\game\src\main.cpp
 
 CMakeFiles/nju_campus.dir/src/main.cpp.i: cmake_force
@@ -105,11 +150,41 @@ CMakeFiles/nju_campus.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/main.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\main.cpp -o CMakeFiles\nju_campus.dir\src\main.cpp.s
 
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj: C:/Users/13276/Desktop/game/src/mainmap.cpp
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj -MF CMakeFiles\nju_campus.dir\src\mainmap.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\mainmap.cpp.obj -c C:\Users\13276\Desktop\game\src\mainmap.cpp
+
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/mainmap.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\mainmap.cpp > CMakeFiles\nju_campus.dir\src\mainmap.cpp.i
+
+CMakeFiles/nju_campus.dir/src/mainmap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/mainmap.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\mainmap.cpp -o CMakeFiles\nju_campus.dir\src\mainmap.cpp.s
+
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj: C:/Users/13276/Desktop/game/src/nanyong_building.cpp
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj -MF CMakeFiles\nju_campus.dir\src\nanyong_building.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\nanyong_building.cpp.obj -c C:\Users\13276\Desktop\game\src\nanyong_building.cpp
+
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\nanyong_building.cpp > CMakeFiles\nju_campus.dir\src\nanyong_building.cpp.i
+
+CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\nanyong_building.cpp -o CMakeFiles\nju_campus.dir\src\nanyong_building.cpp.s
+
 CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
 CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
 CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj: C:/Users/13276/Desktop/game/src/nju_campus.cpp
 CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj -MF CMakeFiles\nju_campus.dir\src\nju_campus.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\nju_campus.cpp.obj -c C:\Users\13276\Desktop\game\src\nju_campus.cpp
 
 CMakeFiles/nju_campus.dir/src/nju_campus.cpp.i: cmake_force
@@ -120,18 +195,113 @@ CMakeFiles/nju_campus.dir/src/nju_campus.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/nju_campus.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\nju_campus.cpp -o CMakeFiles\nju_campus.dir\src\nju_campus.cpp.s
 
+CMakeFiles/nju_campus.dir/src/npc.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/npc.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/npc.cpp.obj: C:/Users/13276/Desktop/game/src/npc.cpp
+CMakeFiles/nju_campus.dir/src/npc.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/nju_campus.dir/src/npc.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/npc.cpp.obj -MF CMakeFiles\nju_campus.dir\src\npc.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\npc.cpp.obj -c C:\Users\13276\Desktop\game\src\npc.cpp
+
+CMakeFiles/nju_campus.dir/src/npc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/npc.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\npc.cpp > CMakeFiles\nju_campus.dir\src\npc.cpp.i
+
+CMakeFiles/nju_campus.dir/src/npc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/npc.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\npc.cpp -o CMakeFiles\nju_campus.dir\src\npc.cpp.s
+
+CMakeFiles/nju_campus.dir/src/player.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/player.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/player.cpp.obj: C:/Users/13276/Desktop/game/src/player.cpp
+CMakeFiles/nju_campus.dir/src/player.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/nju_campus.dir/src/player.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/player.cpp.obj -MF CMakeFiles\nju_campus.dir\src\player.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\player.cpp.obj -c C:\Users\13276\Desktop\game\src\player.cpp
+
+CMakeFiles/nju_campus.dir/src/player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/player.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\player.cpp > CMakeFiles\nju_campus.dir\src\player.cpp.i
+
+CMakeFiles/nju_campus.dir/src/player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/player.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\player.cpp -o CMakeFiles\nju_campus.dir\src\player.cpp.s
+
+CMakeFiles/nju_campus.dir/src/playground.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/playground.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/playground.cpp.obj: C:/Users/13276/Desktop/game/src/playground.cpp
+CMakeFiles/nju_campus.dir/src/playground.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/nju_campus.dir/src/playground.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/playground.cpp.obj -MF CMakeFiles\nju_campus.dir\src\playground.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\playground.cpp.obj -c C:\Users\13276\Desktop\game\src\playground.cpp
+
+CMakeFiles/nju_campus.dir/src/playground.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/playground.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\playground.cpp > CMakeFiles\nju_campus.dir\src\playground.cpp.i
+
+CMakeFiles/nju_campus.dir/src/playground.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/playground.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\playground.cpp -o CMakeFiles\nju_campus.dir\src\playground.cpp.s
+
+CMakeFiles/nju_campus.dir/src/plot.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/plot.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/plot.cpp.obj: C:/Users/13276/Desktop/game/src/plot.cpp
+CMakeFiles/nju_campus.dir/src/plot.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/nju_campus.dir/src/plot.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/plot.cpp.obj -MF CMakeFiles\nju_campus.dir\src\plot.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\plot.cpp.obj -c C:\Users\13276\Desktop\game\src\plot.cpp
+
+CMakeFiles/nju_campus.dir/src/plot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/plot.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\plot.cpp > CMakeFiles\nju_campus.dir\src\plot.cpp.i
+
+CMakeFiles/nju_campus.dir/src/plot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/plot.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\plot.cpp -o CMakeFiles\nju_campus.dir\src\plot.cpp.s
+
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj: CMakeFiles/nju_campus.dir/flags.make
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj: CMakeFiles/nju_campus.dir/includes_CXX.rsp
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj: C:/Users/13276/Desktop/game/src/sujiao_building.cpp
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj: CMakeFiles/nju_campus.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj -MF CMakeFiles\nju_campus.dir\src\sujiao_building.cpp.obj.d -o CMakeFiles\nju_campus.dir\src\sujiao_building.cpp.obj -c C:\Users\13276\Desktop\game\src\sujiao_building.cpp
+
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\13276\Desktop\game\src\sujiao_building.cpp > CMakeFiles\nju_campus.dir\src\sujiao_building.cpp.i
+
+CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\13276\Desktop\game\src\sujiao_building.cpp -o CMakeFiles\nju_campus.dir\src\sujiao_building.cpp.s
+
 # Object files for target nju_campus
 nju_campus_OBJECTS = \
 "CMakeFiles/nju_campus.dir/nju_campus_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/canteen.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj" \
 "CMakeFiles/nju_campus.dir/src/main.cpp.obj" \
-"CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj"
+"CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/npc.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/player.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/playground.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/plot.cpp.obj" \
+"CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj"
 
 # External object files for target nju_campus
 nju_campus_EXTERNAL_OBJECTS =
 
 nju_campus.exe: CMakeFiles/nju_campus.dir/nju_campus_autogen/mocs_compilation.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/canteen.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj
 nju_campus.exe: CMakeFiles/nju_campus.dir/src/main.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj
 nju_campus.exe: CMakeFiles/nju_campus.dir/src/nju_campus.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/npc.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/player.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/playground.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/plot.cpp.obj
+nju_campus.exe: CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj
 nju_campus.exe: CMakeFiles/nju_campus.dir/build.make
 nju_campus.exe: C:/Qt/6.9.0/mingw_64/lib/libQt6Widgets.a
 nju_campus.exe: C:/Qt/6.9.0/mingw_64/lib/libQt6Gui.a
@@ -140,7 +310,7 @@ nju_campus.exe: C:/Qt/6.9.0/mingw_64/lib/libQt6EntryPoint.a
 nju_campus.exe: CMakeFiles/nju_campus.dir/linkLibs.rsp
 nju_campus.exe: CMakeFiles/nju_campus.dir/objects1.rsp
 nju_campus.exe: CMakeFiles/nju_campus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable nju_campus.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable nju_campus.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\nju_campus.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

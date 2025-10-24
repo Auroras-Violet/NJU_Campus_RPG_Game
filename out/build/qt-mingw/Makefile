@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\13276\Desktop\game\out\build\qt-mingw\CMakeFiles C:\Users\13276\Desktop\game\out\build\qt-mingw\\CMakeFiles\progress.marks
@@ -154,6 +199,45 @@ nju_campus_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus_autogen.dir\build.make CMakeFiles/nju_campus_autogen.dir/build
 .PHONY : nju_campus_autogen/fast
 
+#=============================================================================
+# Target rules for targets named mainwindows
+
+# Build rule for target.
+mainwindows: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mainwindows
+.PHONY : mainwindows
+
+# fast build rule for target.
+mainwindows/fast:
+	$(MAKE) $(MAKESILENT) -f mainwindows\CMakeFiles\mainwindows.dir\build.make mainwindows/CMakeFiles/mainwindows.dir/build
+.PHONY : mainwindows/fast
+
+#=============================================================================
+# Target rules for targets named mainwindows_autogen_timestamp_deps
+
+# Build rule for target.
+mainwindows_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mainwindows_autogen_timestamp_deps
+.PHONY : mainwindows_autogen_timestamp_deps
+
+# fast build rule for target.
+mainwindows_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f mainwindows\CMakeFiles\mainwindows_autogen_timestamp_deps.dir\build.make mainwindows/CMakeFiles/mainwindows_autogen_timestamp_deps.dir/build
+.PHONY : mainwindows_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named mainwindows_autogen
+
+# Build rule for target.
+mainwindows_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 mainwindows_autogen
+.PHONY : mainwindows_autogen
+
+# fast build rule for target.
+mainwindows_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f mainwindows\CMakeFiles\mainwindows_autogen.dir\build.make mainwindows/CMakeFiles/mainwindows_autogen.dir/build
+.PHONY : mainwindows_autogen/fast
+
 nju_campus_autogen/mocs_compilation.obj: nju_campus_autogen/mocs_compilation.cpp.obj
 .PHONY : nju_campus_autogen/mocs_compilation.obj
 
@@ -177,6 +261,78 @@ nju_campus_autogen/mocs_compilation.s: nju_campus_autogen/mocs_compilation.cpp.s
 nju_campus_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/nju_campus_autogen/mocs_compilation.cpp.s
 .PHONY : nju_campus_autogen/mocs_compilation.cpp.s
+
+src/canteen.obj: src/canteen.cpp.obj
+.PHONY : src/canteen.obj
+
+# target to build an object file
+src/canteen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/canteen.cpp.obj
+.PHONY : src/canteen.cpp.obj
+
+src/canteen.i: src/canteen.cpp.i
+.PHONY : src/canteen.i
+
+# target to preprocess a source file
+src/canteen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/canteen.cpp.i
+.PHONY : src/canteen.cpp.i
+
+src/canteen.s: src/canteen.cpp.s
+.PHONY : src/canteen.s
+
+# target to generate assembly for a file
+src/canteen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/canteen.cpp.s
+.PHONY : src/canteen.cpp.s
+
+src/dormitory.obj: src/dormitory.cpp.obj
+.PHONY : src/dormitory.obj
+
+# target to build an object file
+src/dormitory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/dormitory.cpp.obj
+.PHONY : src/dormitory.cpp.obj
+
+src/dormitory.i: src/dormitory.cpp.i
+.PHONY : src/dormitory.i
+
+# target to preprocess a source file
+src/dormitory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/dormitory.cpp.i
+.PHONY : src/dormitory.cpp.i
+
+src/dormitory.s: src/dormitory.cpp.s
+.PHONY : src/dormitory.s
+
+# target to generate assembly for a file
+src/dormitory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/dormitory.cpp.s
+.PHONY : src/dormitory.cpp.s
+
+src/gameplay.obj: src/gameplay.cpp.obj
+.PHONY : src/gameplay.obj
+
+# target to build an object file
+src/gameplay.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/gameplay.cpp.obj
+.PHONY : src/gameplay.cpp.obj
+
+src/gameplay.i: src/gameplay.cpp.i
+.PHONY : src/gameplay.i
+
+# target to preprocess a source file
+src/gameplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/gameplay.cpp.i
+.PHONY : src/gameplay.cpp.i
+
+src/gameplay.s: src/gameplay.cpp.s
+.PHONY : src/gameplay.s
+
+# target to generate assembly for a file
+src/gameplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/gameplay.cpp.s
+.PHONY : src/gameplay.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -202,6 +358,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/mainmap.obj: src/mainmap.cpp.obj
+.PHONY : src/mainmap.obj
+
+# target to build an object file
+src/mainmap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/mainmap.cpp.obj
+.PHONY : src/mainmap.cpp.obj
+
+src/mainmap.i: src/mainmap.cpp.i
+.PHONY : src/mainmap.i
+
+# target to preprocess a source file
+src/mainmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/mainmap.cpp.i
+.PHONY : src/mainmap.cpp.i
+
+src/mainmap.s: src/mainmap.cpp.s
+.PHONY : src/mainmap.s
+
+# target to generate assembly for a file
+src/mainmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/mainmap.cpp.s
+.PHONY : src/mainmap.cpp.s
+
+src/nanyong_building.obj: src/nanyong_building.cpp.obj
+.PHONY : src/nanyong_building.obj
+
+# target to build an object file
+src/nanyong_building.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.obj
+.PHONY : src/nanyong_building.cpp.obj
+
+src/nanyong_building.i: src/nanyong_building.cpp.i
+.PHONY : src/nanyong_building.i
+
+# target to preprocess a source file
+src/nanyong_building.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.i
+.PHONY : src/nanyong_building.cpp.i
+
+src/nanyong_building.s: src/nanyong_building.cpp.s
+.PHONY : src/nanyong_building.s
+
+# target to generate assembly for a file
+src/nanyong_building.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/nanyong_building.cpp.s
+.PHONY : src/nanyong_building.cpp.s
+
 src/nju_campus.obj: src/nju_campus.cpp.obj
 .PHONY : src/nju_campus.obj
 
@@ -226,6 +430,126 @@ src/nju_campus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/nju_campus.cpp.s
 .PHONY : src/nju_campus.cpp.s
 
+src/npc.obj: src/npc.cpp.obj
+.PHONY : src/npc.obj
+
+# target to build an object file
+src/npc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/npc.cpp.obj
+.PHONY : src/npc.cpp.obj
+
+src/npc.i: src/npc.cpp.i
+.PHONY : src/npc.i
+
+# target to preprocess a source file
+src/npc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/npc.cpp.i
+.PHONY : src/npc.cpp.i
+
+src/npc.s: src/npc.cpp.s
+.PHONY : src/npc.s
+
+# target to generate assembly for a file
+src/npc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/npc.cpp.s
+.PHONY : src/npc.cpp.s
+
+src/player.obj: src/player.cpp.obj
+.PHONY : src/player.obj
+
+# target to build an object file
+src/player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/player.cpp.obj
+.PHONY : src/player.cpp.obj
+
+src/player.i: src/player.cpp.i
+.PHONY : src/player.i
+
+# target to preprocess a source file
+src/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/player.cpp.i
+.PHONY : src/player.cpp.i
+
+src/player.s: src/player.cpp.s
+.PHONY : src/player.s
+
+# target to generate assembly for a file
+src/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/player.cpp.s
+.PHONY : src/player.cpp.s
+
+src/playground.obj: src/playground.cpp.obj
+.PHONY : src/playground.obj
+
+# target to build an object file
+src/playground.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/playground.cpp.obj
+.PHONY : src/playground.cpp.obj
+
+src/playground.i: src/playground.cpp.i
+.PHONY : src/playground.i
+
+# target to preprocess a source file
+src/playground.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/playground.cpp.i
+.PHONY : src/playground.cpp.i
+
+src/playground.s: src/playground.cpp.s
+.PHONY : src/playground.s
+
+# target to generate assembly for a file
+src/playground.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/playground.cpp.s
+.PHONY : src/playground.cpp.s
+
+src/plot.obj: src/plot.cpp.obj
+.PHONY : src/plot.obj
+
+# target to build an object file
+src/plot.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/plot.cpp.obj
+.PHONY : src/plot.cpp.obj
+
+src/plot.i: src/plot.cpp.i
+.PHONY : src/plot.i
+
+# target to preprocess a source file
+src/plot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/plot.cpp.i
+.PHONY : src/plot.cpp.i
+
+src/plot.s: src/plot.cpp.s
+.PHONY : src/plot.s
+
+# target to generate assembly for a file
+src/plot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/plot.cpp.s
+.PHONY : src/plot.cpp.s
+
+src/sujiao_building.obj: src/sujiao_building.cpp.obj
+.PHONY : src/sujiao_building.obj
+
+# target to build an object file
+src/sujiao_building.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.obj
+.PHONY : src/sujiao_building.cpp.obj
+
+src/sujiao_building.i: src/sujiao_building.cpp.i
+.PHONY : src/sujiao_building.i
+
+# target to preprocess a source file
+src/sujiao_building.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.i
+.PHONY : src/sujiao_building.cpp.i
+
+src/sujiao_building.s: src/sujiao_building.cpp.s
+.PHONY : src/sujiao_building.s
+
+# target to generate assembly for a file
+src/sujiao_building.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\nju_campus.dir\build.make CMakeFiles/nju_campus.dir/src/sujiao_building.cpp.s
+.PHONY : src/sujiao_building.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -233,19 +557,56 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... mainwindows_autogen
+	@echo ... mainwindows_autogen_timestamp_deps
 	@echo ... nju_campus_autogen
 	@echo ... nju_campus_autogen_timestamp_deps
+	@echo ... mainwindows
 	@echo ... nju_campus
 	@echo ... nju_campus_autogen/mocs_compilation.obj
 	@echo ... nju_campus_autogen/mocs_compilation.i
 	@echo ... nju_campus_autogen/mocs_compilation.s
+	@echo ... src/canteen.obj
+	@echo ... src/canteen.i
+	@echo ... src/canteen.s
+	@echo ... src/dormitory.obj
+	@echo ... src/dormitory.i
+	@echo ... src/dormitory.s
+	@echo ... src/gameplay.obj
+	@echo ... src/gameplay.i
+	@echo ... src/gameplay.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/mainmap.obj
+	@echo ... src/mainmap.i
+	@echo ... src/mainmap.s
+	@echo ... src/nanyong_building.obj
+	@echo ... src/nanyong_building.i
+	@echo ... src/nanyong_building.s
 	@echo ... src/nju_campus.obj
 	@echo ... src/nju_campus.i
 	@echo ... src/nju_campus.s
+	@echo ... src/npc.obj
+	@echo ... src/npc.i
+	@echo ... src/npc.s
+	@echo ... src/player.obj
+	@echo ... src/player.i
+	@echo ... src/player.s
+	@echo ... src/playground.obj
+	@echo ... src/playground.i
+	@echo ... src/playground.s
+	@echo ... src/plot.obj
+	@echo ... src/plot.i
+	@echo ... src/plot.s
+	@echo ... src/sujiao_building.obj
+	@echo ... src/sujiao_building.i
+	@echo ... src/sujiao_building.s
 .PHONY : help
 
 
